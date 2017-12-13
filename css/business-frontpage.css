@@ -8,22 +8,121 @@ body {
   padding-top: 54px;
 }
 
+/*header styles */
+.business-header {
+  height: 50vh;
+  min-height: 300px;
+  background: url('https://storage.googleapis.com/wzuk/assets/images/493958387/493958387_1450.jpg') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.business-header .row {
+  padding-top: 35px;
+}
+.business-header h2 {
+  font-size: 2rem;
+}
+.business-header .bar {
+  background: #fff;
+  height: 4px;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.container .scroll-anchor.about {
+  display: block;
+  position: relative;
+  top: -56px;
+  visibility: hidden;
+}
+.container address i {
+  font-size: 22px;
+  padding-right: 5px;
+  position: relative;
+  top: 4px;
+}
+.container address .lower-address {
+  padding-left: 26px;
+}
+
+.card {
+  height: 100%;
+}
+
+/*social icon styles*/
+.social-wrap {
+  margin-top: 25px;
+}
+.social-wrap ul {
+  list-style: none;
+  padding: 0;
+}
+.social-wrap ul li {
+  float: left;
+  margin-right: 5px;
+}
+.social-wrap ul li a {
+  font-size: 34px;
+}
+.social-wrap ul li a:hover {
+  text-decoration: none;
+}
+
+/*social icon colors*/
+.social-wrap ul .fa-facebook-square {
+  color: #3B5998;
+}
+.social-wrap ul .fa-facebook-square:hover {
+  color: #5a7abf;
+}
+
+
+.social-wrap ul .fa-twitter-square {
+  color: #1DA1F2;
+}
+.social-wrap ul .fa-twitter-square:hover {
+  color: #56b8f5;
+}
+
+.social-wrap ul .fa-google-plus-square {
+  color: #DB4437;
+}
+.social-wrap ul .fa-google-plus-square:hover {
+  color: #e37268;
+}
+
+.social-wrap ul .fa-youtube-square {
+  color: #ff0000;
+}
+.social-wrap ul .fa-youtube-square:hover {
+  color: #ff4d4d;
+}
+
+.social-wrap ul .fa-instagram {
+  color: #C32AA3;
+}
+.social-wrap ul .fa-instagram:hover {
+  color: #db57bf;
+}
+
+.social-wrap ul .fa-linkedin-square {
+  color: #007BB5;
+}
+.social-wrap ul .fa-linkedin-square:hover {
+  color: #00aeff;
+}
+
+
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
   }
 }
 
-.business-header {
-  height: 50vh;
-  min-height: 300px;
-  background: url('http://placehold.it/1920x400') center center no-repeat scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
-.card {
-  height: 100%;
+@media (max-width: 500px) {
+  .business-header h1 {
+    font-size: 2.5rem;
+  }
 }

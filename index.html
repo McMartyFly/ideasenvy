@@ -8,14 +8,36 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Business Frontpage - Start Bootstrap Template</title>
+    <title>iDeas Envy</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Custom styles for this template -->
     <link href="css/business-frontpage.css" rel="stylesheet">
 
+    <script>
+    $(document).ready(function(){
+
+       // jQuery methods go here...
+       function scrollToAnchor(aid){
+       var aTag = $("a[name='"+ aid +"']");
+       $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+       }
+
+       $('.about').on('click', function(){
+         scrollToAnchor('about');
+       });
+
+       $('.services').on('click', function(){
+         scrollToAnchor('services');
+       });
+
+    });
+    </script>
   </head>
 
   <body>
@@ -23,7 +45,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <a class="navbar-brand" href="#">iDeas Envy LLC</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,13 +57,13 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link about" href="#about">About iDeas Envy</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link services" href="#services">Speakers and Technical Talent</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link about" href="#about">Contact iDeas Envy</a>
             </li>
           </ul>
         </div>
@@ -53,7 +75,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h1 class="display-3 text-center text-white mt-4">Business Name or Tagline</h1>
+            <h1 class="display-3 text-center text-white mt-4">iDeas Envy LLC</h1>
+            <div class="bar"></div>
+            <h2 class="display-3 text-center text-white mt-4">The Best Ideas - Implemented for Your Success</h2>
           </div>
         </div>
       </div>
@@ -61,12 +85,12 @@
 
     <!-- Page Content -->
     <div class="container">
-
       <div class="row">
         <div class="col-sm-8">
-          <h2 class="mt-4">What We Do</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
+          <a class="scroll-anchor about" name="about"></a>
+          <h2 class="mt-4">About iDeas Envy</h2>
+          <p>iDeas Envy is the creation of Mary López Carter and David Pratt Carter. The team started the organization known as iDesign Solutions in early 2010. After years of providing key technology services to non-profit and similar organizations, the team expanded by creating Ideas Envy LLC. The much larger organization now concentrates on providing training, consulting, design and coaching services to a broad spectrum of industries.</p>
+          <p>David Carter is the design lead and also is our leading public speaker (both in instructional and motivational presentations).</p>
           <p>
             <a class="btn btn-primary btn-lg" href="#">Call to Action &raquo;</a>
           </p>
@@ -74,26 +98,36 @@
         <div class="col-sm-4">
           <h2 class="mt-4">Contact Us</h2>
           <address>
-            <strong>Start Bootstrap</strong>
-            <br>3481 Melrose Place
-            <br>Beverly Hills, CA 90210
+            <!-- <strong>Address</strong> -->
+            <br><i class="material-icons">home</i>2111 Baycourt Trl
+            <br><span class="lower-address">Hillsborough, NC 27278</span>
             <br>
           </address>
           <address>
-            <abbr title="Phone">P:</abbr>
-            (123) 456-7890
+            <!-- <abbr title="Phone">P:</abbr> -->
+            <i class="material-icons">phone</i>(919) 883-5584
             <br>
-            <abbr title="Email">E:</abbr>
-            <a href="mailto:#">name@example.com</a>
+            <!-- <abbr title="Email">E:</abbr> -->
+            <i class="material-icons">email</i><a href="mailto:#">sales@ideasenvy.com</a>
           </address>
+          <div class="social-wrap">
+            <ul>
+              <li><a href="https://facebook.com/davecarterusa" class="fa fa-facebook-square"></a></li>
+              <li><a href="https://twitter.com/davecarterusa" class="fa fa-twitter-square"></a></li>
+              <li><a href="https://plus.google.com/b/101790435437062687213/" class="fa fa-google-plus-square"></a></li>
+              <li><a href="#" class="fa fa-youtube-square"></a></li>
+              <li><a href="#" class="fa fa-instagram"></a></li>
+              <li><a href="https://www.linkedin.com/in/david-pratt-carter/" class="fa fa-linkedin-square"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
       <!-- /.row -->
-
+      <a name="services"></a>
       <div class="row">
         <div class="col-sm-4 my-4">
           <div class="card">
-            <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+            <img class="card-img-top" src="imgs/certified-ziglar-trainer-badge-v4_d400.jpg" alt="">
             <div class="card-body">
               <h4 class="card-title">Card title</h4>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
@@ -105,7 +139,7 @@
         </div>
         <div class="col-sm-4 my-4">
           <div class="card">
-            <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+            <img class="card-img-top" src="imgs/davemotioning_d200.jpg" alt="">
             <div class="card-body">
               <h4 class="card-title">Card title</h4>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
@@ -137,7 +171,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        <p class="m-0 text-center text-white">All rights reserved &copy; iDeas Envy LLC</p>
       </div>
       <!-- /.container -->
     </footer>
