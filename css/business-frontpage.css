@@ -18,8 +18,13 @@ body {
   background-size: cover;
   -o-background-size: cover;
 }
+
+
 .business-header .row {
   padding-top: 35px;
+}
+.business-header h1 {
+  font-weight: 500;
 }
 .business-header h2 {
   font-size: 2rem;
@@ -29,6 +34,18 @@ body {
   height: 4px;
   margin: 0 auto;
   width: 200px;
+}
+
+.navbar .ielogo {
+  margin-right: 5px;
+}
+
+.row .card .ielogo {
+  padding: 10px;
+}
+footer .ielogo {
+  display: block;
+  margin: 0 auto 10px;
 }
 
 .container .scroll-anchor.about {
@@ -114,6 +131,10 @@ body {
   color: #00aeff;
 }
 
+.branded {
+  color: #c53241;
+  font-weight: 700;
+}
 
 @media (min-width: 992px) {
   body {
