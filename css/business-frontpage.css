@@ -25,9 +25,11 @@ body {
 }
 .business-header h1 {
   font-weight: 500;
+  text-shadow: rgb(0, 0, 0) 1px 1px 0px;
 }
 .business-header h2 {
   font-size: 2rem;
+  text-shadow: rgb(0, 0, 0) 1px 1px 0px;
 }
 .business-header .bar {
   background: #fff;
@@ -38,6 +40,9 @@ body {
 
 .navbar .ielogo {
   margin-right: 5px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #0069d9;
 }
 
 .row .card .ielogo {
@@ -133,6 +138,10 @@ footer .ielogo {
 
 .branded {
   color: #c53241;
+  font-weight: 700;
+}
+.branded-blue {
+  color: #0069d9;
   font-weight: 700;
 }
 
