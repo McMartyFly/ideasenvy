@@ -159,6 +159,10 @@ footer .ielogo {
   font-weight: 700;
 }
 
+.card-body h4 {
+  font-size: 1.4rem;
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
