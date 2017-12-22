@@ -1,0 +1,135 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ */
+
+body {
+  background: #cce6ff;
+  padding-top: 54px;
+}
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .contact {
+  color: #ffcc00;
+}
+.navbar-dark .navbar-nav .contact {
+  display: block;
+  padding: 0.5rem;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #f5e8bc;
+}
+.navbar-dark .navbar-brand {
+  color: #ffcc00;
+}
+
+.banner-copy p span {
+  color: #000;
+  font-weight: 700;
+}
+.banner-copy span.gold {
+  color: #ffcc00;
+  text-shadow: 1px 1px #000;
+}
+
+.center-cta p span {
+  color: #ffcc00;
+}
+
+.container .row.cards .card {
+  border: 1px solid #ffcc00;
+}
+
+.container .row.cards .card1 {
+  border-radius: 0 4rem 0 4rem;
+}
+.container .row.cards .card2 {
+  border-radius: 4rem 4rem 0 0;
+}
+.container .row.cards .card3 {
+  border-radius: 4rem 0 4rem 0;
+}
+.container .row.cards h2 {
+  color: #ffcc00;
+  font-weight: 700;
+  text-shadow: 1px 1px #000;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+/*footer styles*/
+footer ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+footer ul li {
+  font-size: 34px;
+  display: inline;
+}
+
+/*footer social icon colors and hovers*/
+footer ul li a.fa-facebook-square {
+  color: #3B5998;
+}
+footer ul li a.fa-facebook-square:hover {
+  color: #5a7abf;
+}
+
+footer ul li a.fa-twitter-square {
+  color: #1DA1F2;
+}
+footer ul li a.fa-twitter-square:hover {
+  color: #56b8f5;
+}
+
+footer ul li a.fa-google-plus-square {
+  color: #DB4437;
+}
+footer ul li a.fa-google-plus-square:hover {
+  color: #e37268;
+}
+
+footer ul li a.fa-youtube-square {
+  color: #ff0000;
+}
+footer ul li a.fa-youtube-square:hover {
+  color: #ff4d4d;
+}
+
+footer ul li a.fa-instagram {
+  color: #C32AA3;
+}
+footer ul li a.fa-instagram:hover {
+  color: #db57bf;
+}
+
+footer ul li a.fa-linkedin-square {
+  color: #007BB5;
+}
+footer ul li a.fa-linkedin-square:hover {
+  color: #00aeff;
+}
+
+footer ul li a {
+  display: inline-block;
+}
+footer ul li a:hover {
+  text-decoration: none;
+}
+
+footer p span {
+  color: #ffcc00;
+}
+
+@media (max-width: 770px) {
+  .container .row.cards .card1,
+  .container .row.cards .card2,
+  .container .row.cards .card3 {
+    border-radius: 0 4rem 0 4rem;
+  }
+}
