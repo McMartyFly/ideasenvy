@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <title>Page Title</title>
+    <!-- jQuery -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+
+    <!-- maps stuff -->
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <link rel="stylesheet" type="text/css" href="https://js.cit.api.here.com/v3/3.0/mapsjs-ui.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript" src="https://js.cit.api.here.com/v3/3.0/mapsjs-core.js"></script>
+    <script type="text/javascript" src="https://js.cit.api.here.com/v3/3.0/mapsjs-service.js"></script>
+    <script type="text/javascript" src="https://js.cit.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+    <script type="text/javascript" src="https://js.cit.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+
+    <script type="text/javascript" src="https://js.cit.api.here.com/v3/3.0/mapsjs-data.js"></script>
+
+    <!-- mapping functions -->
+
+    <style>
+      .H_ib_body {
+        background: #3C92BA;
+        border-radius: 1em;
+        box-shadow: 1px 1px 1px #000;
+        padding: 0;
+      }
+      .H_ib_tail {
+        bottom: -.6em;
+        left: -.5em;
+      }
+      .H_ib_tail svg {
+        fill: #3C92BA;
+      }
+      .H_ib_body .H_ib_content {
+        background-color: #3C92BA !important;
+        margin: 25px !important;
+      }
+      .H_ib_body .H_ib_content span#name {
+        color: #fff !important;
+      }
+      .H_ib_body .H_ib_content .fa.fa-car {
+        color: #ccc;
+        padding-left: 5px;
+        position: relative;
+      }
+      .H_ib_body .H_ib_content .directions-popup {
+        background: #364F4F;
+        color: #fff;
+        display: none;
+        font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        left: -3px;
+        padding: 5px;
+        position: absolute;
+        top: -54px;
+      }
+      .H_ib_body .H_ib_content .fa.fa-car:hover .directions-popup {
+        display: block;
+      }
+      .H_ib_body .H_ib_content .directions-popup .triangle {
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #364F4F;
+        bottom: -10px;
+        height: 0;
+        left: 9px;
+        position: absolute;
+        width: 0;
+      }
+
+      .selector-wrap {
+        background: #364F4F;
+        padding: 30px;
+        position: relative;
+      }
+      .selector-wrap .header {
+        background: #21262A;
+        bottom: -70px;
+        border-radius: 5px;
+        color: #3C92BA;
+        display: none;
+        font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        margin-right: 6px;
+        padding: 5px;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        z-index: 1;
+      }
+      .selector-wrap .header.open {
+        display: block;
+      }
+
+      .selector-wrap .header span {
+        color: #fff;
+      }
+
+      #map {
+        display: none;
+        height: calc(100vh - 175px);
+        width: 100%;
+      }
+      #map.open {
+        display: block;
+      }
+
+      #kml {
+        height: 50px;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      #placeholderMap {
+        background: #ccc;
+        display: table;
+        font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+        height: calc(100vh - 175px);
+        width: 100%;
+      }
+      #placeholderMap p {
+        color: #3C92BA;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+      }
+      #placeholderMap.closed {
+        display: none;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="selector-wrap">
+      <div class="header">Now Showing:<br/> <span class="territory">Select Territory</span> </div>
+      <select id="kml" class="form-control">
+        <option value="false">Select Territory</option>
+        <option value="FtWorth">Fort Worth</option>
+        <option value="territory-Brooklyn">Brooklyn</option>
+      </select>
+      <div></div>
+    </div>
+
+    <div id="placeholderMap">
+      <p>Select Territory To Display Map</p>
+    </div>
+    <div id="map" data-file-name=""></div>
+
+    <script>
+      var markersObjects = {};
+      var globalObjects = {};
+      var fileName;
+
+      $(document).ready(function(){
+
+        $("#kml").on("change", function(){
+    			fileName = $(this).val();
+          if(fileName == 'false'){
+            $('.selector-wrap .header').removeClass('open');
+            $('#map').removeClass('open');
+            $('#placeholderMap').removeClass('closed');
+          } else if(fileName != 'false'){
+            $('.selector-wrap .header').addClass('open');
+            $("#placeholderMap").addClass('closed');
+            $("#map").addClass('open');
+            $("#kml").find('option:selected').removeAttr('selected');
+    				$("#map").html('');
+    				$("#map").attr("data-file-name",fileName);
+
+            var territoryName = $('#kml').find('option:selected').html();
+            $('.selector-wrap .header .territory').html(territoryName);
+
+            function searchName( name ){
+               window.open('http://google.com/search?q='+name);
+            }
+
+            function showKMLBallon(position, data,ui) {
+              var latLong = data.kmlNode.children[4].childNodes[1].childNodes[0].data;
+              var latLongArray = latLong.split(",");
+
+              var content = `<span style="color:#1080DD; font-size:16px; font-weight:bold;cursor:pointer" id='name' data-name="`+data.name+`">`+data.name+`</span>
+
+                <span><a href="https://www.google.com/maps/dir/?api=1&origin=Current+Location&destination=`+latLongArray[1]+`/`+latLongArray[0]+`" target="_blank" id="route"><i class="fa fa-car" aria-hidden="true"><div class="directions-popup">Click for<br/>Directions<div class="triangle"></div></div></i></a></span>
+                <br/>
+                <span style="font-size:12px;">`+data.description+`</span>
+                <br/>`;
+
+              if (content) {
+                var bubble = showKMLBallon.infoBubble;
+                if (!bubble) {
+                  bubble = new H.ui.InfoBubble(position, {content: content});
+                  ui.addBubble(bubble);
+                  bubble.getContentElement().style.marginRight = "10px";
+                  bubble.getContentElement().style.marginLeft = "10px";
+                  bubble.getContentElement().style.marginTop = "50px";
+                  bubble.getContentElement().style.marginBottom = "10px";
+                  bubble.getContentElement().style.backgroundColor = "#DFDED4";
+                  bubble.getContentElement().style.color = "#020e18";
+                  bubble.getContentElement().style.width = "300px";
+                  showKMLBallon.infoBubble = bubble;
+
+                } else {
+                  bubble.setPosition(position);
+                  bubble.setContent(content);
+                  bubble.open();
+                }
+              }
+
+              $('#name').on("click", function(e){
+                var name = $(this).data('name');
+                searchName(name);
+              });
+
+            }
+            // end showKMLBallon
+
+            function destination(lat, lon, bearing, distance) {
+
+              var R = 6372.1, lat, lon, latDest, lonDest;
+              lat = lat * (Math.PI / 180);
+              lon = lon * (Math.PI / 180);
+              bearing = bearing * (Math.PI / 180);
+              latDest = Math.asin(Math.sin(lat) * Math.cos(distance / R) +
+              Math.cos(lat) * Math.sin(distance / R) * Math.cos(bearing));
+              lonDest = lon + Math.atan2(Math.sin(bearing) * Math.sin(distance / R) * Math.cos(lat),
+              Math.cos(distance / R) - Math.sin(lat) * Math.sin(latDest));
+              return [latDest * (180 / Math.PI), lonDest * (180 / Math.PI)];
+
+            }
+
+            function showSpiderFire(map,markersObjects,position,ui){
+              var currentZoom = map.getZoom();
+              if(currentZoom <=7){
+                var endZoom = currentZoom + 4;
+                var step = function() {
+                  currentZoom += 0.05;
+                  map.setZoom(currentZoom);
+
+                  (currentZoom < endZoom) && requestAnimationFrame(step);
+                  map.setCenter({lat:position.lat,lng:position.lng});
+                }
+                step();
+              }
+              var bearing = 90;
+              var key = (position.lat+''+position.lng).toString();
+              key = key.replace(/\./g,'-');
+
+              if(!globalObjects[key]){
+                globalObjects[key] = [];
+              }else{
+                if(globalObjects[key][0].getVisibility()){
+                  globalObjects[key][0].setVisibility(false);
+                }else{
+                  globalObjects[key][0].setVisibility(true);
+                }
+                return false;
+              }
+
+              var spgroup = new H.map.Group();
+              markersObjects[key].forEach(function(obj){
+                var PointA = {lat:obj.getPosition().lat, lng:obj.getPosition().lng};
+                var latlng = destination(obj.getPosition().lat,obj.getPosition().lng,bearing,3);
+
+                bearing = bearing+ 45;
+                var newLat = latlng[0];
+                var newlng = latlng[1];
+                obj.getPosition().lat = newLat;
+                obj.getPosition().lng = newlng;
+                obj.icon.getAnchor().x = 10;
+                obj.icon.getAnchor().y = 24;
+                var PointB = {lat:newLat, lng:newlng};
+                var strip = new H.geo.Strip();
+
+                strip.insertPoint(0,PointA);
+                strip.insertPoint(1,PointB);
+                spgroup.addObject(new H.map.Polyline(
+                strip, { style: { lineWidth: 2,strokeColor:'rgb(0,0,255)',lineJoin:'miter' }}
+                ));
+                spgroup.addObject(obj);
+                spgroup.addEventListener('tap', function (evt) {
+                      var target = evt.target, position;
+                      if (target instanceof H.map.Marker) {
+                        position = target.getPosition();
+                      }
+                      if (position) {
+                        showKMLBallon(position, target.getData(),ui);
+                      }
+                    });
+                globalObjects[key].push(spgroup);
+                map.addObject(spgroup);
+
+              });
+
+            }
+            // end showSpiderFire
+            var kmlFile = fileName+'.kml';
+            // console.log(kmlFile);
+            function renderKMLDataBallon(markersObjects,map, ui, renderControls,file) {
+
+                var reader = new H.data.kml.Reader(kmlFile);
+                var container = new H.map.Group();
+                markersObjects = {};
+
+                reader.parse();
+
+                reader.addEventListener('statechange', function () {
+                if (this.getState() === H.data.AbstractReader.State.READY) {
+                    var parsedObjects = reader.getParsedObjects();
+                    parsedObjects.forEach(function(obj){
+                      var position = obj.getPosition();
+                      var plat = position.lat;
+                      var plng = position.lng;
+                      var key = (plat+''+plng).toString();
+                      key = key.replace(/\./g,'-');
+                      if(!markersObjects[key]){
+                        markersObjects[key]=[];
+                      }
+                      markersObjects[key].push(obj);
+
+                    });
+
+                    $.each(markersObjects,function(i,d){
+                      if(d.length == 1){
+                        container.addObject(d[0]);
+                      }else if(d.length > 1){
+                        var coordObj = d[0].getPosition();
+                        var svgMarkup = `<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+                           <circle cx="12" cy="12" r="12" stroke="white" stroke-width="1" fill="#1b468d" />
+                          <text x="12" y="18" font-size="12pt" font-family="Arial" font-weight="bold" text-anchor="middle " fill="white">`+d.length+`</text></svg>`;
+
+                    var icon = new H.map.Icon(svgMarkup,{anchor:{x:10,y:15}}),
+                      coords = {lat: coordObj.lat, lng: coordObj.lng};
+
+                    var marker = new H.map.Marker(coords, {icon: icon});
+
+                      marker.addEventListener('tap', function (evt) {
+                          var target = evt.target, position;
+                          if (target instanceof H.map.Marker) {
+                            position = target.getPosition();
+                          }
+                          if (position) {
+                            showSpiderFire(map,markersObjects,position,ui);
+                          }
+                        });
+                    map.addObject(marker);
+                  }
+                    });
+
+                    renderControls({
+                      'View All': function () {
+                        map.setViewBounds(container.getBounds(), true);
+                      }
+                    });
+                    container.addEventListener('tap', function (evt) {
+                      var target = evt.target, position;
+                      if (target instanceof H.map.Marker) {
+                        position = target.getPosition();
+                      }
+                      if (position) {
+                        showKMLBallon(position, target.getData(),ui);
+                      }
+                    });
+                    map.addObject(container);
+                    map.setViewBounds(container.getBounds(), true);
+                  }
+
+                });
+
+
+              }
+              // end renderKMLDataBallon
+
+              var modal = $(this)
+                var platform = new H.service.Platform({
+                app_id: 'H9hzIKyBz3kRXKPon817',
+                app_code: 'lFAICJg4ySL7DbrH_OEo2A',
+                useCIT: false,
+                useHTTPS: true
+              });
+
+              var defaultLayers = platform.createDefaultLayers();
+              var map = new H.Map(
+                document.getElementById('map'),
+                defaultLayers.normal.map,
+                {
+                zoom: 5,
+                center: {
+                  lat: 33.218509,
+                  lng:-97.595446
+                }
+              });
+
+              var behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
+              function renderControls(buttons) {
+                var containerNode = document.createElement('div');
+                containerNode.setAttribute('style', 'position:absolute;top:0;left:0;background-color:#020e18; padding:10px;');
+                containerNode.className = "btn-group";
+
+                Object.keys(buttons).forEach(function (label) {
+                  var input = document.createElement('input');
+                  input.value = label;
+                  input.type = 'button';
+                  input.onclick = buttons[label];
+                  input.className="btn btn-sm btn-default"
+                  containerNode.appendChild(input);
+                });
+
+                map.getElement().appendChild(containerNode);
+              }
+
+              var ui = H.ui.UI.createDefault(map, defaultLayers);
+              var file = $("#map").data("file-name");
+              renderKMLDataBallon(markersObjects,map, ui, renderControls, file);
+
+
+    			}
+    		});
+
+
+      });
+    </script>
+  </body>
+</html>

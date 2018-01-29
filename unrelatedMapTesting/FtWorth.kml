@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 https://developers.google.com/kml/schema/kml22gx.xsd http://www.w3.org/2005/Atom http://schemas.opengis.net/kml/2.2.0/atom-author-link.xsd">
+  <Document id="Vaso">
+    <name>Vaso Territories</name>
+    <atom:author>
+      <atom:name>Warboard Funnel</atom:name>
+    </atom:author>
+    <atom:link href="http://metrics.vasohealthcare.com/Apex/_SupportFiles" rel="related"/>
+    <Style id="RED_1">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-red_1.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="RED_2">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-red_2.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="BLUE">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-blue.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="GREEN">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-green.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="GREEN_1">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-green_1.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="GREEN_2">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-green_2.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="GREEN_3">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-green_3.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="GREEN_4">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-green_4.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="ORANGE">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-orange.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="PURPLE">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-purple.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="WHITE">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-white.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="YELLOW">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-yellow.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="BLUE_1">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-blue_1.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="BLUE_2">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-blue_2.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="BLUE_3">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-blue_3.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="BLUE_4">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-blue_4.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="BLUEGREEN_1">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-bluegreen_1.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="BLUEGREEN_2">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-bluegreen_2.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="BLUEGREEN_3">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-bluegreen_3.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="ORANGE_1">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-orange_1.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="ORANGE_2">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-orange_2.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="ORANGE_3">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-orange_3.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="PINK_1">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-pink_1.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="PINK_2">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-pink_2.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="PINK_3">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-pink_3.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="PURPLE_1">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-purple_1.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="PURPLE_2">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-purple_2.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="PURPLE_3">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-purple_3.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="PURPLE_4">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-purple_4.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="WHITE_1">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-white_1.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="YELLOW_1">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-yellow_1.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="YELLOW_2">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-yellow_2.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="YELLOW_3">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-yellow_3.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Placemark id="P1032927-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Advanced Cath Imaging LP</name>
+      <description>Group Practice&lt;HR&gt;Total: $2,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: Intv-1&lt;br&gt;Bed Size: Not App.</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-97.595446,33.218509</coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark id="P100972-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Bone &amp; Joint Clinic</name>
+      <description>Group Practice&lt;HR&gt;Total: $140,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: Rad-1&lt;br&gt;Bed Size: Not App.</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-97.344751,32.733026</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1013970-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Cancer Care of North Texas</name>
+      <description>Cancer Center&lt;HR&gt;Total: $1,450,000&lt;br&gt;Statuses: OPEN-2&lt;br&gt;Modalities: MR-1, PET-1&lt;br&gt;Bed Size: Not App.</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-97.171879,33.222614</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P12221-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Central Imaging of Arlington</name>
+      <description>Diagnostic Imaging Center&lt;HR&gt;Total: $200,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: CT-1&lt;br&gt;Bed Size: Not App.</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-97.115017,32.694029</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1063792-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Comanche County Medical Center</name>
+      <description>Hospital&lt;HR&gt;Total: $200,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: Mammo-1&lt;br&gt;Bed Size: 20 - 99</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-98.563277,31.999354</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P358233-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Cross Timber Orthopaedics</name>
+      <description>Surgery Center&lt;HR&gt;Total: $20,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: MR-1&lt;br&gt;Bed Size: Not App.</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-98.204118,32.223425</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P30969-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Eastland Memorial Hospital</name>
+      <description>Hospital&lt;HR&gt;Total: $434,000&lt;br&gt;Statuses: FORECAST-1, OPEN-1&lt;br&gt;Modalities: Rad-2&lt;br&gt;Bed Size: 20 - 99</description>
+      <styleUrl>#BLUE_1</styleUrl>
+      <Point>
+        <coordinates>-98.821622,32.400218</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P30915-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Faith Community Hospital</name>
+      <description>Hospital&lt;HR&gt;Total: $1&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: MR-1&lt;br&gt;Bed Size: 20 - 99</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-98.169127,33.226019</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1169530-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Forest Park Medical Center</name>
+      <description>Group Practice&lt;HR&gt;Total: $210,000&lt;br&gt;Statuses: OPEN-3&lt;br&gt;Modalities: CT-1, MR-2&lt;br&gt;Bed Size: Not App.</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-97.145070,32.958480</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1113007-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Gateway Diagnostic Imaging</name>
+      <description>Diagnostic Imaging Center&lt;HR&gt;Total: $300,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: Mammo-1&lt;br&gt;Bed Size: Not App.</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-97.191522,32.851359</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P30910-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Glen Rose Medical Center</name>
+      <description>Hospital&lt;HR&gt;Total: $2,226,027&lt;br&gt;Statuses: OPEN-8&lt;br&gt;Modalities: CT-1, Mammo-1, MR-1, R&amp;F-1, Rad-4&lt;br&gt;Bed Size: 20 - 99</description>
+      <styleUrl>#BLUEGREEN_1</styleUrl>
+      <Point>
+        <coordinates>-97.746100,32.241833</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P30911-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Graham Regional Med Center</name>
+      <description>Hospital&lt;HR&gt;Total: $530,000&lt;br&gt;Statuses: OPEN-3&lt;br&gt;Modalities: CT-1, Mammo-1, Rad-1&lt;br&gt;Bed Size: 20 - 99</description>
+      <styleUrl>#BLUE_1</styleUrl>
+      <Point>
+        <coordinates>-98.585680,33.089831</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P30960-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Hamilton Hospital</name>
+      <description>Hospital&lt;HR&gt;Total: $300,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: CT-1&lt;br&gt;Bed Size: 20 - 99</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-98.763770,33.369654</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P33215-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Kell West Regional Hospital LLC</name>
+      <description>Hospital&lt;HR&gt;Total: $170,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: Rad-1&lt;br&gt;Bed Size: 20 - 99</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-98.578870,33.872342</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P33343-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Lifecare Hospital of Fort Worth</name>
+      <description>Hospital&lt;HR&gt;Total: $40,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: Rad-1&lt;br&gt;Bed Size: 20 - 99</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-97.419357,32.678497</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P30984-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Limestone Medical Center</name>
+      <description>Hospital&lt;HR&gt;Total: $520,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: CT-1&lt;br&gt;Bed Size: 20 - 99</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-96.529745,31.531630</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1183476-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Medx Imaging &amp; Eves Breast Center</name>
+      <description>Diagnostic Imaging Center&lt;HR&gt;Total: $200,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: Nuc-1&lt;br&gt;Bed Size: Not App.</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-97.140146,32.956680</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1111082-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Monticello Diagnostic Imaging</name>
+      <description>Diagnostic Imaging Center&lt;HR&gt;Total: $1&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: PET-1&lt;br&gt;Bed Size: Not App.</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-97.371505,32.751420</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P30952-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Nocona General Hospital</name>
+      <description>Hospital&lt;HR&gt;Total: $1,840,000&lt;br&gt;Statuses: OPEN-3&lt;br&gt;Modalities: CT-1, MR-1, Rad-1&lt;br&gt;Bed Size: 20 - 99</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-97.731538,33.776757</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1180215-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>North Texas Cancer Center of Wise</name>
+      <description>Cancer Center&lt;HR&gt;Total: $800,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: PET-1&lt;br&gt;Bed Size: Not App.</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-97.583855,33.247390</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P30950-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>North Texas Medical Center</name>
+      <description>Hospital&lt;HR&gt;Total: $300,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: Nuc-1&lt;br&gt;Bed Size: 20 - 99</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-97.162439,33.646079</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P181892-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Numed Inc</name>
+      <description>Integrated Healthcare Network&lt;HR&gt;Total: $528,000&lt;br&gt;Statuses: OPEN-4&lt;br&gt;Modalities: CT-1, MR-1, Nuc-2&lt;br&gt;Bed Size: Not App.</description>
+      <styleUrl>#BLUEGREEN_1</styleUrl>
+      <Point>
+        <coordinates>-97.015501,33.234693</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P30917-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Palo Pinto General Hospital</name>
+      <description>Hospital&lt;HR&gt;Total: $500,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: CT-1&lt;br&gt;Bed Size: 20 - 99</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-98.145597,32.799525</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P30906-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Stephens Memorial Hospital</name>
+      <description>Hospital&lt;HR&gt;Total: $300,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: CT-1&lt;br&gt;Bed Size: 20 - 99</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-98.887697,32.754616</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P89386-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Stephenville Med Surg Clinic</name>
+      <description>Diagnostic Imaging Center&lt;HR&gt;Total: $250,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: CT-1&lt;br&gt;Bed Size: Not App.</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-98.231897,32.227851</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1018839-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>The Center for Cancer &amp; Blood Disorders</name>
+      <description>Cancer Center&lt;HR&gt;Total: $550,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: MR-1&lt;br&gt;Bed Size: Not App.</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-97.332436,32.730618</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P112651-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>USMD Hospital at Arlington</name>
+      <description>Hospital&lt;HR&gt;Total: $2,650,000&lt;br&gt;Statuses: OPEN-3&lt;br&gt;Modalities: Intv-2, Nuc-1&lt;br&gt;Bed Size: Not App.</description>
+      <styleUrl>#BLUEGREEN_1</styleUrl>
+      <Point>
+        <coordinates>-97.117036,32.679151</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P30953-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>United Regional Health Care System Inc</name>
+      <description>Hospital&lt;HR&gt;Total: $3,875,000&lt;br&gt;Statuses: OPEN-7&lt;br&gt;Modalities: CT-2, Intv-1, MR-1, Nuc-2, PET-1&lt;br&gt;Bed Size: Not App.</description>
+      <styleUrl>#RED_1</styleUrl>
+      <Point>
+        <coordinates>-98.500350,33.902901</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1019059-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Urology Associates of North Texas</name>
+      <description>Group Practice&lt;HR&gt;Total: $400,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: CT-1&lt;br&gt;Bed Size: Not App.</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-97.339567,32.738439</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1019059-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Urology Associates of North Texas 1</name>
+      <description>Group Practice&lt;HR&gt;Total: $400,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: CT-1&lt;br&gt;Bed Size: Not App.</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-97.339567,32.738439</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1061362-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Usmd Hospital at Forth Worth</name>
+      <description>Hospital&lt;HR&gt;Total: $237,500&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: CT-1&lt;br&gt;Bed Size: 1 - 19</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-97.417574,32.645565</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1061363-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Usmd Hospital at Forth Worth 1</name>
+      <description>Hospital&lt;HR&gt;Total: $237,500&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: CT-1&lt;br&gt;Bed Size: 1 - 19</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-97.417574,32.645565</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1061364-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Usmd Hospital at Forth Worth 2</name>
+      <description>Hospital&lt;HR&gt;Total: $237,500&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: CT-1&lt;br&gt;Bed Size: 1 - 19</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-97.417574,32.645565</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P30949-00">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>FtWorth</value>
+        </Data>
+      </ExtendedData>
+      <name>Wise Regional Health System East</name>
+      <description>Hospital&lt;HR&gt;Total: $1,300,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: MR-1&lt;br&gt;Bed Size: 20 - 99</description>
+      <styleUrl>#BLUE_1</styleUrl>
+      <Point>
+        <coordinates>-97.595446,33.218509</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

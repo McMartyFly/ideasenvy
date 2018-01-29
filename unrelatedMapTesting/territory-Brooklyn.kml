@@ -1,0 +1,1738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 https://developers.google.com/kml/schema/kml22gx.xsd http://www.w3.org/2005/Atom http://schemas.opengis.net/kml/2.2.0/atom-author-link.xsd">
+  <Document id="Vaso">
+    <name>Vaso Territories</name>
+    <atom:author>
+      <atom:name>Warboard Funnel</atom:name>
+    </atom:author>
+    <atom:link href="http://metrics.vasohealthcare.com/MyDashSand/_SupportFiles" rel="related"/>
+    <Style id="RED_1">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-red_1.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="RED_2">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-red_2.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="BLUE">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-blue.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="GREEN">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-green.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="GREEN_1">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-green_1.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="GREEN_2">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-green_2.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="GREEN_3">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-green_3.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="GREEN_4">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-green_4.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="ORANGE">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-orange.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="PURPLE">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-purple.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="WHITE">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-white.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="YELLOW">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-yellow.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="BLUE_1">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-blue_1.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="BLUE_2">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-blue_2.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="BLUE_3">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-blue_3.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="BLUE_4">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-blue_4.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="BLUEGREEN_1">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-bluegreen_1.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="BLUEGREEN_2">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-bluegreen_2.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="BLUEGREEN_3">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-bluegreen_3.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="ORANGE_1">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-orange_1.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="ORANGE_2">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-orange_2.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="ORANGE_3">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-orange_3.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="PINK_1">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-pink_1.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="PINK_2">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-pink_2.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="PINK_3">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-pink_3.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="PURPLE_1">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-purple_1.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="PURPLE_2">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-purple_2.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="PURPLE_3">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-purple_3.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="PURPLE_4">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-purple_4.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="WHITE_1">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-white_1.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="YELLOW_1">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-yellow_1.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="YELLOW_2">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-yellow_2.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="YELLOW_3">
+      <IconStyle>
+        <Icon>
+          <href>https://open.mapquestapi.com/staticmap/geticon?uri=poi-yellow_3.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <bgColor>ffffffff</bgColor>
+        <textColor>ff000000</textColor>
+      </BalloonStyle>
+    </Style>
+    <Placemark id="P42034">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Accurate Medical Diagnostic Services PC</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-74.162262,40.597524</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P35111">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Ahava Medical &amp; Rehabilitation Urgent Care Center LLC</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.940998,40.700363</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-25JVT2">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>All County LLC</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.810398,40.738878</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-2VX5HG">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>All County Open MRI &amp; Diagnostic Imaging</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.810413,40.738878</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-2VWRS6">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Astoria Medical Imaging</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.924400,40.769151</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24O0ZJ">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Atlantic Radiology Imaging PC</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.987327,40.606048</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-29GQZS">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Ayman E Faird MD LLC</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-74.178600,40.535520</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-30ICF6">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Bay Parkway Imaging Partners</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.995606,40.600168</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24OURZ">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Best Medical Care</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.829441,40.701961</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-2456BH">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Boro Park Obstetrics &amp; Gynecology PC</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.993680,40.626576</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P7082">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Brookdale Hospital Med Center</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.911827,40.654269</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P7101">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Brookdale Hospital Medical Center</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.911424,40.664880</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-23IB8Y">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Brookdale University Hospital &amp; Medical Center</name>
+      <description>&lt;HR&gt;Total: $2,910,000&lt;br&gt;Statuses: FORECAST-4, OPEN-8&lt;br&gt;Modalities: AW/Other-1, Intv-1, Mammo-1, MR-1, R&amp;F-5, Rad-3&lt;br&gt;Bed Size: </description>
+      <styleUrl>#RED_1</styleUrl>
+      <Point>
+        <coordinates>-73.912790,40.654532</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24C5Q6">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Brooklyn Plaza Medical Center</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: 1 - 19</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.975983,40.686904</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-240009">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Canarsie MRI</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.918158,40.627939</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24N308">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Cardiovascular Associates of NY</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.783002,40.757320</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-25OS2S">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Cardiovascular AssociatesNew York</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.826190,40.747204</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-23VK4A">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Central Queens Imaging</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.823137,40.752443</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24AUTC">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Central Radiology Service</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.874288,40.713197</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-248QJ8">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Complete Radiology PC</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.939864,40.589837</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-2VW0V3">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Diacore Associates of Queens</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.961470,40.590658</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24C2YT">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Diagnostic Cardiology Assoc</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.992710,40.693656</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-2VVRWH">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Diagnostic Radiology Imaging</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.776288,40.744605</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-25M5LH">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Doc Care</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.897306,40.707299</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-23VWAU">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Doshi Diagnostic Imaging Services</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.815535,40.756029</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24M3T6">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Doshi Diagnostic Imaging Services Nuclear Medicine</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.986453,40.602999</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-23VU65">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Doshi Diagnostic Imaging Services PC</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.889827,40.748635</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-245PCS">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Doshi Diagnostics Imaging Services</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.985750,40.692136</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-245PQ2">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Doshi Diagnostics Imaging Services</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.830404,40.713665</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-255JD2">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Dr Wruble</name>
+      <description>&lt;HR&gt;Total: $150,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: Mammo-1&lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.905727,40.773077</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-2VXETX">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Dynamic Medical Imaging</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.888816,40.729886</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24NTCI">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Ear Nose &amp; Throat Associates of NY</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: 1 - 19</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.825882,40.748885</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24ATL1">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Empire Imaging Long Island Radiology Assocs</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.835977,40.717568</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-23VT6V">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Empire Medical Diagnostic</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.950485,40.663914</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-2VWEJ8">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Excel Imaging</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.891261,40.736064</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-2VY77M">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Excel Imaging</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.945117,40.617585</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24N9VR">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Flushing Central Imaging</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: 1 - 19</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.830185,40.763272</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-23IF1K">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Flushing Hospital Medical Center</name>
+      <description>&lt;HR&gt;Total: $200,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: Mammo-1&lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.815268,40.755346</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-25KNJK">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Flushing Radiation Oncology</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.829857,40.759041</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-249MLQ">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Forest Hills Nuclear Spect Imaging</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.848634,40.721584</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-25FGB2">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Greenpoint Diagnostic Imaging</name>
+      <description>&lt;HR&gt;Total: $1,600,000&lt;br&gt;Statuses: UPSIDE-1, OPEN-1&lt;br&gt;Modalities: CT-1, MR-1&lt;br&gt;Bed Size: </description>
+      <styleUrl>#BLUE_1</styleUrl>
+      <Point>
+        <coordinates>-73.954870,40.733923</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-255H0K">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Health Care Associates</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-74.090614,40.600922</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-23VMOV">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>HiLLCrest Radiology</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.804313,40.720970</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-247WSZ">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Hylan Radiology</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-74.097833,40.581757</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24LYC7">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Island Radiology Managment</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-74.114915,40.565422</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-23IH3R">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Jamaica Hospital Medical Center</name>
+      <description>&lt;HR&gt;Total: $475,000&lt;br&gt;Statuses: OPEN-2&lt;br&gt;Modalities: Intv-1, R&amp;F-1&lt;br&gt;Bed Size: </description>
+      <styleUrl>#BLUEGREEN_1</styleUrl>
+      <Point>
+        <coordinates>-73.816270,40.701037</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-34HVW9">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Janlian Medical Group</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-74.007647,40.636210</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-2VWXXB">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Kings Hwy Nuclear Imaging LLC</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.943464,40.617547</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-23IAAA">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Kingsbrook Jewish Medical Center</name>
+      <description>&lt;HR&gt;Total: $3,050,000&lt;br&gt;Statuses: OPEN-9&lt;br&gt;Modalities: CT-1, MR-1, R&amp;F-1, Rad-6&lt;br&gt;Bed Size: 100 - 199</description>
+      <styleUrl>#BLUE_1</styleUrl>
+      <Point>
+        <coordinates>-73.934120,40.659457</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-2VWEJO">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Kissena Diagnostic Imaging</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.818943,40.750671</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-2430UQ">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Lerman Diagnostic Imaging</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-74.009327,40.630572</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-23VIVP">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>MRI Associates Of Queens</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.857568,40.711479</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-23VSQ8">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Marine Park Radiology</name>
+      <description>&lt;HR&gt;Total: $700,004&lt;br&gt;Statuses: UPSIDE-1, OPEN-1&lt;br&gt;Modalities: Mammo-1, MR-1&lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.923547,40.607158</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-25NZHC">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Meadows MidQueens Radiology</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.810413,40.738863</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24AVPH">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Middle Village Radiology</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.869896,40.725696</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-23ICBD">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>NYU Lutheran</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: 200 - 299</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-74.020399,40.646613</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-2VXJFN">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>NYU Lutheran Medical Center</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-74.020414,40.646613</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-25KT02">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>National Technologies Inc</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.966892,40.582156</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-2VXR3N">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>New Dorp MRI &amp; Imaging</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-74.118952,40.575357</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-2VYNQH">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>New York PET &amp; CTA Imaging</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-74.022312,40.630258</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24NQRP">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>New York Radiation Oncology</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.846796,40.680139</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-2VWTP2">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>New York Radiologic Consultant Services</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.944065,40.712715</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24ODQC">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Northern BLVD Radiation Oncology LLP</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.807277,40.763515</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-2VXTMC">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Nostrand MRI &amp; Diagnostic Center</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.941490,40.598467</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-288AGB">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Ocean Radiology</name>
+      <description>&lt;HR&gt;Total: $1,195,000&lt;br&gt;Statuses: OPEN-2&lt;br&gt;Modalities: CT-1, MR-1&lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.968135,40.576740</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-25O1T0">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Omega Diagnostic Imaging</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.953101,40.585787</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-2VVJRA">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Park Slope Cardiac &amp; Rehabilitation Services PC</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.971386,40.673541</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-2VYLD1">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Park Slope Nuclear Spect Imaging</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.985292,40.670358</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-25EZXV">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Prem C Goel MD</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.881651,40.647641</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24545C">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Queens Long Island Medical Group PC</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.826825,40.757153</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24MKG7">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Queens Medical Associates PC</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.795645,40.742796</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-23Z44G">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Queens Medical Imaging PC</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.848649,40.721584</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-2491HZ">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Queens Village Center</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.740013,40.704973</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-23XU6N">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Radiology Associates</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.994055,40.628933</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-242RRS">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Radiology Association of Brooklyn</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.949912,40.592770</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-23I1LM">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Regional Radiology</name>
+      <description>&lt;HR&gt;Total: $1,530,000&lt;br&gt;Statuses: UPSIDE-1, OPEN-1&lt;br&gt;Modalities: MR-2&lt;br&gt;Bed Size: </description>
+      <styleUrl>#BLUE_1</styleUrl>
+      <Point>
+        <coordinates>-74.106651,40.635329</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24GYT1">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Regional Radiology South</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-74.163669,40.542722</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P282227">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Religious Order of Jehovahs Witnesses</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.994540,40.702016</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24120A">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Richmond Hill Radiology</name>
+      <description>&lt;HR&gt;Total: $275,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: Mammo-1&lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.833628,40.700223</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24A4PE">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Richmond Radiology</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-74.162277,40.597524</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24GGBA">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Richmond Radiology Assoc</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-74.083394,40.603559</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-25FMB7">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Richmond University Medical Center</name>
+      <description>&lt;HR&gt;Total: $5,238,000&lt;br&gt;Statuses: UPSIDE-1, OPEN-7&lt;br&gt;Modalities: Intv-2, Mammo-2, MR-1, PET-1, Rad-2&lt;br&gt;Bed Size: 400 - 600</description>
+      <styleUrl>#RED_1</styleUrl>
+      <Point>
+        <coordinates>-74.106733,40.635671</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-2VWD28">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Rockaway Open MRI</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.810514,40.675112</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-32LN2S">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Rs Nuclear Medicine PC</name>
+      <description>&lt;HR&gt;Total: $876,500&lt;br&gt;Statuses: UPSIDE-1, OPEN-2&lt;br&gt;Modalities: CT-1, Mammo-1, MR-1&lt;br&gt;Bed Size: </description>
+      <styleUrl>#BLUE_1</styleUrl>
+      <Point>
+        <coordinates>-74.007224,40.636863</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-31D65X">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Select Diagnostic Imaging</name>
+      <description>&lt;HR&gt;Total: $1,650,000&lt;br&gt;Statuses: OPEN-3&lt;br&gt;Modalities: Mammo-1, MR-2&lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.952412,40.604317</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24N85C">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Sinai Diagnostic Interventional Radiology PC</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.951367,40.599068</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-258VGZ">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Solace</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: 1 - 19</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.888831,40.729886</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24AVY9">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Sonoscan Genetic Sciences</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.837582,40.718845</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-23WP32">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Sonoscan Womens Imaging</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.817577,40.756869</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-23ZT5E">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>South Shore Radiology of Howard Beach</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.841025,40.663545</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-23IKMW">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>St Johns Episcopal HospS Shore</name>
+      <description>&lt;HR&gt;Total: $600,000&lt;br&gt;Statuses: OPEN-1&lt;br&gt;Modalities: CT-1&lt;br&gt;Bed Size: 400 - 600</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.752895,40.598217</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-2VWZJW">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>StandUp MRI of Queens PC</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.786595,40.727445</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-2VWV58">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Standup MRI of Brooklyn</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.994506,40.660212</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24LK43">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Staten Island Heart</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-74.166449,40.547428</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24OO1C">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Staten Island Heart</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-74.085382,40.583177</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-256XR1">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Staten Island Heart Imaging</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-74.114943,40.579059</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-25N19T">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Staten Island Medical Group</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-74.108080,40.619873</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-25OUA6">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Staten Island Medical Group</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-74.165254,40.527696</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-2ADUYM">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Staten Island Physician Practice PC</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-74.165269,40.527696</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-25HNOS">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Staten Island Physicians Practice</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-74.108065,40.619873</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-23WICU">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Universal Mri &amp; Diagnostic Center Of Queens</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.865777,40.736536</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24NU0S">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Urban Radiology</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.959249,40.608835</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-24LNF8">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Vascular Diagnostic Associates</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.827672,40.757433</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-23IED2">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>Wyckoff Heights Medical Center</name>
+      <description>&lt;HR&gt;Total: $1,500,000&lt;br&gt;Statuses: OPEN-2&lt;br&gt;Modalities: Intv-1, MR-1&lt;br&gt;Bed Size: 200 - 299</description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.917530,40.704755</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="P1-25I2NE">
+      <ExtendedData>
+        <Data name="Territory">
+          <value>Brooklyn</value>
+        </Data>
+      </ExtendedData>
+      <name>XXI Century Radiology &amp; Imaging PC</name>
+      <description>&lt;HR&gt;Total: $0&lt;br&gt;Statuses: &lt;br&gt;Modalities: &lt;br&gt;Bed Size: </description>
+      <styleUrl>#WHITE_1</styleUrl>
+      <Point>
+        <coordinates>-73.959925,40.581968</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
